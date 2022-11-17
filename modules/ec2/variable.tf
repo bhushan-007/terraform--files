@@ -5,7 +5,7 @@ variable "ami_id" {
 
 variable "instance_type" {
   description = "declare the name of instance"
-  default = "t2.micro"
+  default = "t2.nano"
 }
 
 variable "subnet_id" {}
